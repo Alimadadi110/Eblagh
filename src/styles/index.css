@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* Vazir Font Family */
+@font-face {
+  font-family: 'Vazir';
+  src: url('../assets/Fonts/Vazir.eot');
+  src: url('../assets/Fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('../assets/Fonts/Vazir.woff2') format('woff2'),
+       url('../assets/Fonts/Vazir.woff') format('woff'),
+       url('../assets/Fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../assets/Fonts/Vazir-Thin.eot');
+  src: url('../assets/Fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../assets/Fonts/Vazir-Thin.woff2') format('woff2'),
+       url('../assets/Fonts/Vazir-Thin.woff') format('woff'),
+       url('../assets/Fonts/Vazir-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../assets/Fonts/Vazir-Light.eot');
+  src: url('../assets/Fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+       url('../assets/Fonts/Vazir-Light.woff2') format('woff2'),
+       url('../assets/Fonts/Vazir-Light.woff') format('woff'),
+       url('../assets/Fonts/Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../assets/Fonts/Vazir-Medium.eot');
+  src: url('../assets/Fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../assets/Fonts/Vazir-Medium.woff2') format('woff2'),
+       url('../assets/Fonts/Vazir-Medium.woff') format('woff'),
+       url('../assets/Fonts/Vazir-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../assets/Fonts/Vazir-Bold.eot');
+  src: url('../assets/Fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../assets/Fonts/Vazir-Bold.woff2') format('woff2'),
+       url('../assets/Fonts/Vazir-Bold.woff') format('woff'),
+       url('../assets/Fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Set Vazir as the default font for the entire application */
+body {
+  font-family: 'Vazir', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Sols';
+  src: url('../assets/Fonts/Suls.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.Sols {
+  font-family: 'Sols', serif;
+}
